@@ -1,0 +1,5 @@
+my_bucket_name = "my-y423k-solud-bull"
+ami_id = "ami-0d97d7f07b25dd693"
+instance_type = "t3.micro"
+key_pair_name = "new-key-pair"
+ec2_instance_name = "small_Instance"
