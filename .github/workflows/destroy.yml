@@ -3,6 +3,11 @@ name: destroy my terraform resources
 
 on:
   workflow_dispatch:
+    inputs:
+      confirm_destroy:
+        description: 'Type "yes" to confirm destruction of resources'
+        required: true
+        default: 'no'
 
 jobs:
         destroy:
