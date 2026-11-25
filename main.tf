@@ -2,7 +2,7 @@ module "s3" {
   source = "./modules/s3"
   bucket_name = var.bucket_name
   bucket = var.bucket
-  my_bucket_name = var.my_bucket_name
+  
 
 }
 

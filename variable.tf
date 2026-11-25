@@ -8,10 +8,6 @@ variable "bucket" {
     default = "na-wa-for-bucket22"
 }
 
-variable "my_bucket_name" {
-    description = "The name of the S3 bucket to create"
-}
-
 variable "ami_id" {
     description = "The ID of the AMI to use for the EC2 instance"
     default = "ami-0d97d7f07b25dd693"
