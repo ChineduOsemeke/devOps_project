@@ -24,4 +24,8 @@ variable "ec2_instance_name" {
     description = "The name of the EC2 instance"
     default = "Small_Instance"
 }
+variable "instance_name" {
+    description = "The name of the EC2 instance"
+    default = "Big_Instance"
+}
 

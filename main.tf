@@ -12,6 +12,7 @@ module "ec2" {
   instance_type = var.instance_type
   key_pair_name = var.key_pair_name
   ec2_instance_name = var.ec2_instance_name
+  instance_name = var.instance_name
 }
 
 

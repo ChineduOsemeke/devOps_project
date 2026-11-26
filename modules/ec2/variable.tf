@@ -12,3 +12,7 @@ variable "key_pair_name" {
 variable "ec2_instance_name" {
     description = "The name of the EC2 instance"
 }
+
+variable "instance_name" {
+    default = "Big_Instance"
+}
