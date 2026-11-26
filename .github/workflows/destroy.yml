@@ -3,7 +3,7 @@ name: destroy my terraform resources
 
 on:
   workflow_dispatch:
-   
+    
 
 jobs:
         destroy:
